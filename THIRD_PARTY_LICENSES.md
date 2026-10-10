@@ -15,7 +15,7 @@ It lists the SPDX licence identifiers of the third-party code that the project d
 | Ecosystem | Packages |
 | --- | --- |
 | Rust crates (xianscan-rust) | 350 |
-| npm: web (16 direct production dependencies) | 95 |
+| npm: web (17 direct production dependencies) | 124 |
 | npm: extensions/xianscan-importer (0 direct production dependencies) | 0 |
 
 ## Needs attention
@@ -68,8 +68,8 @@ Entries that are copyleft (GPL, AGPL, LGPL, MPL, EPL, CDDL, CC-BY-SA and similar
 
 | Licence | Count |
 | --- | --- |
-| MIT | 78 |
-| ISC | 7 |
+| MIT | 100 |
+| ISC | 14 |
 | Apache-2.0 | 4 |
 | OFL-1.1 | 2 |
 | (BSD-2-Clause OR MIT OR Apache-2.0) | 1 |
@@ -454,6 +454,8 @@ No production dependencies.
 | abort-controller | 3.0.0 | MIT |
 | agentkeepalive | 4.6.0 | MIT |
 | ahocorasick | 1.0.2 | MIT |
+| ansi-regex | 5.0.1 | MIT |
+| ansi-styles | 4.3.0 | MIT |
 | asynckit | 0.4.0 | MIT |
 | base64-js | 1.5.1 | MIT |
 | better-sqlite3 | 11.10.0 | MIT |
@@ -461,15 +463,22 @@ No production dependencies.
 | bl | 4.1.0 | MIT |
 | buffer | 5.7.1 | MIT |
 | call-bind-apply-helpers | 1.0.2 | MIT |
+| camelcase | 5.3.1 | MIT |
 | chownr | 1.1.4 | ISC |
+| cliui | 6.0.0 | ISC |
 | clsx | 2.1.1 | MIT |
+| color-convert | 2.0.1 | MIT |
+| color-name | 1.1.4 | MIT |
 | combined-stream | 1.0.8 | MIT |
+| decamelize | 1.2.0 | MIT |
 | decompress-response | 6.0.0 | MIT |
 | deep-extend | 0.6.0 | MIT |
 | delayed-stream | 1.0.0 | MIT |
 | detect-libc | 2.1.2 | Apache-2.0 |
+| dijkstrajs | 1.0.3 | MIT |
 | drizzle-orm | 0.36.4 | Apache-2.0 |
 | dunder-proto | 1.0.1 | MIT |
+| emoji-regex | 8.0.0 | MIT |
 | end-of-stream | 1.4.5 | MIT |
 | es-define-property | 1.0.1 | MIT |
 | es-errors | 1.3.0 | MIT |
@@ -480,11 +489,13 @@ No production dependencies.
 | expand-template | 2.0.3 | (MIT OR WTFPL) |
 | fflate | 0.8.3 | MIT |
 | file-uri-to-path | 1.0.0 | MIT |
+| find-up | 4.1.0 | MIT |
 | form-data | 4.0.6 | MIT |
 | form-data-encoder | 1.7.2 | MIT |
 | formdata-node | 4.4.1 | MIT |
 | fs-constants | 1.0.0 | MIT |
 | function-bind | 1.1.2 | MIT |
+| get-caller-file | 2.0.5 | ISC |
 | get-intrinsic | 1.3.0 | MIT |
 | get-proto | 1.0.1 | MIT |
 | github-from-package | 0.0.0 | MIT |
@@ -496,6 +507,8 @@ No production dependencies.
 | ieee754 | 1.2.1 | BSD-3-Clause |
 | inherits | 2.0.4 | ISC |
 | ini | 1.3.8 | ISC |
+| is-fullwidth-code-point | 3.0.0 | MIT |
+| locate-path | 5.0.0 | MIT |
 | lucide-svelte | 0.460.0 | ISC |
 | math-intrinsics | 1.1.0 | MIT |
 | mime-db | 1.52.0 | MIT |
@@ -510,18 +523,29 @@ No production dependencies.
 | node-fetch | 2.7.0 | MIT |
 | once | 1.4.0 | ISC |
 | openai | 4.104.0 | Apache-2.0 |
+| p-limit | 2.3.0 | MIT |
+| p-locate | 4.1.0 | MIT |
 | p-queue | 8.1.1 | MIT |
 | p-timeout | 6.1.4 | MIT |
+| p-try | 2.2.0 | MIT |
 | papaparse | 5.6.0 | MIT |
+| path-exists | 4.0.0 | MIT |
+| pngjs | 5.0.0 | MIT |
 | prebuild-install | 7.1.3 | MIT |
 | pump | 3.0.4 | MIT |
+| qrcode | 1.5.4 | MIT |
 | rc | 1.2.8 | (BSD-2-Clause OR MIT OR Apache-2.0) |
 | readable-stream | 3.6.2 | MIT |
+| require-directory | 2.1.1 | MIT |
+| require-main-filename | 2.0.0 | ISC |
 | safe-buffer | 5.2.1 | MIT |
 | semver | 7.8.5 | ISC |
+| set-blocking | 2.0.0 | ISC |
 | simple-concat | 1.0.1 | MIT |
 | simple-get | 4.0.1 | MIT |
 | string_decoder | 1.3.0 | MIT |
+| string-width | 4.2.3 | MIT |
+| strip-ansi | 6.0.1 | MIT |
 | strip-json-comments | 2.0.1 | MIT |
 | svelte-sonner | 0.3.28 | MIT |
 | tailwind-merge | 2.6.1 | MIT |
@@ -535,7 +559,12 @@ No production dependencies.
 | web-streams-polyfill | 4.0.0-beta.3 | MIT |
 | webidl-conversions | 3.0.1 | BSD-2-Clause |
 | whatwg-url | 5.0.0 | MIT |
+| which-module | 2.0.1 | ISC |
+| wrap-ansi | 6.2.0 | MIT |
 | wrappy | 1.0.2 | ISC |
+| y18n | 4.0.3 | ISC |
+| yargs | 15.4.1 | MIT |
+| yargs-parser | 18.1.3 | ISC |
 | zod | 3.25.76 | MIT |
 
 ## npm: extensions/xianscan-importer
